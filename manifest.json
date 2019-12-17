@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Refresher",
+    "version": "0.1",
+    "description": "Refreshing the page automatically after a defined time in miliseconds",
+
+"background": {
+    "persistent": false,
+    "scripts":["js/background.js"]
+  },
+
+    "content_scripts": [
+        {
+          "matches": [
+            "https://adecco.service-now.com/$pa_dashboard.do?sysparm_dashboard=8f9dc13ddbb57f40f23049250596199d&sysparm_tab=6acd817ddbb57f40f2304925059619c0&sysparm_cancelable=true&sysparm_editable=undefined&sysparm_active_panel=false"
+          ],
+          "js": ["js/reload.js"]
+        }
+      ]
+}
