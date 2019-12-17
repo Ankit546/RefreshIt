@@ -1,3 +1,4 @@
+
 window.onload=function(){
     var data=sessionStorage.getItem('times');
     if(data==null){
@@ -23,3 +24,8 @@ setTimeout(function(){
 //console.log(timer);
 console.log("Ankit");
 }
+
+setTimeout(function(){
+    location.reload()
+},10000);
+console.log("Ankit");
