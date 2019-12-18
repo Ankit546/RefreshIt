@@ -1,8 +1,7 @@
-
 window.onload=function(){
     var data=sessionStorage.getItem('times');
     if(data==null){
-    var timer=parseInt(window.prompt("Enter the time you want refresh to happen:"));
+    var timer=parseInt(window.prompt("Enter the time(in seconds) you want refresh to happen:"));
 
 if(/^[0-9]+$/.test(timer)){
     console.log("Yes");
@@ -13,19 +12,11 @@ else{
 }
 
 }
-
-
-
 //setTimeout function
 setTimeout(function(){
     location.reload()
-},data);
+},data*100);
 
 //console.log(timer);
 console.log("Ankit");
-}
-
-setTimeout(function(){
-    location.reload()
-},10000);
-console.log("Ankit");
+}   
