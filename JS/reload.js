@@ -15,7 +15,7 @@ else{
 //setTimeout function
 setTimeout(function(){
     location.reload()
-},data*100);
+},data*1000);
 
 //console.log(timer);
 console.log("Ankit");
