@@ -16,5 +16,8 @@
           ],
           "js": ["js/reload.js"]
         }
-      ]
+      ],
+      "browser_action": {
+        "default_icon": "refresh.png"
+      }
 }
