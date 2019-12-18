@@ -11,4 +11,4 @@ The extension will be listed in the list of Chrome Extensions. Enjoy!
 
 You can even change the URL of the page which you want to refresh by going to "manifest.json" and changing the line: 
 "matches"-> Change the URL to desired value.
-
+If it's not working then please change the URL to the desired one and refresh the page and the Extension. It will start working!
